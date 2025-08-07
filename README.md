@@ -9,7 +9,8 @@ Este projeto implementa um assistente inteligente para diagnósticos técnicos d
     <img src="https://raw.githubusercontent.com/gabrieImoreira/maintenance_rag_agent/main/data/demo.gif" alt="Demonstração do Assistente">
   </a>
 </p>
-## 🚀 Tecnologias Utilizadas
+
+### Tecnologias Utilizadas
 
 - Python
 - LangChain & LangGraph
@@ -95,8 +96,9 @@ Essa filtragem teve como objetivo garantir **alta assertividade** nas respostas 
 Para um uso em escala profissional e confiável, será fundamental:
 - Reavaliar e enriquecer a base de dados original;
 - Alimentar o sistema apenas com dados completos, relevantes e estruturados;
-- Conduzir experimentos com conjuntos maiores e mais bem curados de OS.
-
+- Conduzir experimentos com conjuntos maiores e mais bem curados de OS;
+- Rankeamento da base das respostas duplicadas, para ter maior assertividade e ter a base das respostas mais relevantes/repetidas.
+- 
 Esse projeto prova o potencial da abordagem RAG em manutenção técnica, mas **a qualidade da base de dados é determinante para a eficácia real da solução**.
 
 
@@ -108,9 +110,9 @@ Este projeto pode ser executado de duas formas: via Docker (recomendado para amb
 
 ### 🔹 Opção 1: Usando Docker (Recomendado)
 
-1.  Acesse o arquivo .env na raiz do projeto e insira sua chave de API da OpenAI.
+1.   Acesse a pasta raiz do projeto, vá até o arquivo .env na raiz do projeto e insira sua chave de API da OpenAI.
 
-2.  Acesse a pasta raiz do projeto (com o Docker instalado) e execute:
+2.  Após isso, na raizraiz do projeto (com o Docker instalado) e execute:
 
 ```bash
 docker-compose up --build
@@ -124,8 +126,8 @@ docker-compose up --build
 4. Clone o repositório e acesse a pasta:
 
 ```bash
-git clone https://github.com/seuusuario/assistente-reparos-rag.git
-cd assistente-reparos-rag
+git clone https://github.com/gabrieImoreira/maintenance_rag_agent.git
+cd maintenance_rag_agent
 ```
 
 5. Instale as dependências:
