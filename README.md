@@ -2,7 +2,9 @@
 
 Este projeto implementa um assistente inteligente para diagnósticos técnicos de manutenção com base em um histórico real de Ordens de Serviço (OS). Ele utiliza busca vetorial para encontrar casos semelhantes, e responde com sugestões técnicas fundamentadas nas ocorrências anteriores, por meio de uma arquitetura RAG (Retrieval-Augmented Generation).
 
----
+## 🎥 Demonstração
+
+![Demonstração do Assistente](data/demo.gif)
 
 ## 🚀 Tecnologias Utilizadas
 
