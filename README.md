@@ -4,8 +4,11 @@ Este projeto implementa um assistente inteligente para diagnósticos técnicos d
 
 ## 🎥 Demonstração
 
-![Demonstração do Assistente](data/demo.gif)
-
+<p align="center">
+  <a href="https://raw.githubusercontent.com/gabrieImoreira/maintenance_rag_agent/main/data/demo.gif">
+    <img src="https://raw.githubusercontent.com/gabrieImoreira/maintenance_rag_agent/main/data/demo.gif" alt="Demonstração do Assistente">
+  </a>
+</p>
 ## 🚀 Tecnologias Utilizadas
 
 - Python
