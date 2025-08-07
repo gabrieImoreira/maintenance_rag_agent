@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+openpyxl = "*"
+python-dotenv = "*"
+langchain-huggingface = "*"
+typing-extensions = "*"
+langchain-core = "*"
+langchain = "*"
+langchain-openai = "*"
+langchain-community = "*"
+langchain-chroma = "*"
+langgraph = "*"
+chromadb = "*"
+streamlit = "*"
+tinydb = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

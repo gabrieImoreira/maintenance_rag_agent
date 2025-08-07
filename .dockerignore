@@ -1,0 +1,18 @@
+# Arquivo .dockerignore
+
+# Ignora o ambiente virtual se você usar um localmente
+.venv/
+venv/
+
+# Ignora caches do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignora arquivos do Git
+.git
+.gitignore
+
+# Ignora os dados gerados que serão montados via volume
+/chroma_db_reparos/
+/data/conversas_reparos_db.json

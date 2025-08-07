@@ -1,0 +1,13 @@
+
+services:
+  app:
+    build: . 
+    image: assistente-reparos
+    container_name: assistente-app
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./chroma_db_reparos:/app/chroma_db_reparos
+      - ./conversas_reparos_db.json:/app/conversas_reparos_db.json
