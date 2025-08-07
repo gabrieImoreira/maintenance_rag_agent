@@ -98,7 +98,7 @@ Para um uso em escala profissional e confiável, será fundamental:
 - Alimentar o sistema apenas com dados completos, relevantes e estruturados;
 - Conduzir experimentos com conjuntos maiores e mais bem curados de OS;
 - Rankeamento da base das respostas duplicadas, para ter maior assertividade e ter a base das respostas mais relevantes/repetidas.
-- 
+
 Esse projeto prova o potencial da abordagem RAG em manutenção técnica, mas **a qualidade da base de dados é determinante para a eficácia real da solução**.
 
 
