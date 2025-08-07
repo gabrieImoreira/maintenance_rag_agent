@@ -98,6 +98,8 @@ Para um uso em escala profissional e confiável, será fundamental:
 - Conduzir experimentos com conjuntos maiores e mais bem curados de OS.
 
 Esse projeto prova o potencial da abordagem RAG em manutenção técnica, mas **a qualidade da base de dados é determinante para a eficácia real da solução**.
+
+
 ---
 
 ## ▶️ Como Executar o Projeto
@@ -108,7 +110,7 @@ Este projeto pode ser executado de duas formas: via Docker (recomendado para amb
 
 1.  Acesse o arquivo .env na raiz do projeto e insira sua chave de API da OpenAI.
 
-2.  Acesse a pasta raiz do projeto (com o Docker instalado) e execute
+2.  Acesse a pasta raiz do projeto (com o Docker instalado) e execute:
 
 ```bash
 docker-compose up --build
